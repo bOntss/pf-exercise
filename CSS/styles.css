@@ -1,6 +1,18 @@
+/* 1. Order
+2. Embedded vs external (embedded wins) */
+
+
 body{
     background-color:orangered;
     font-family: 'Luxurious Roman', cursive;
+}
+header{
+    background-color:aqua;
 
 
+}
+
+h1{
+    background-color:aquamarine;
+    color:red;
 }
