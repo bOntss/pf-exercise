@@ -1,6 +1,11 @@
 /* 1. Order
 2. Embedded vs external (embedded wins) */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
 body{
     background-color:orangered;
@@ -15,4 +20,18 @@ header{
 h1{
     background-color:aquamarine;
     color:red;
+    display: block;
+    height: 100px;
+    text-align:center;
+    
 }
+
+ul{
+    background-color:cadetblue;
+
+}
+
+/* li{
+    background-color:greenyellow;
+
+} */
