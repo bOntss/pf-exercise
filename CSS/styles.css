@@ -1,6 +1,6 @@
 /* 1. Order
 2. Embedded vs external (embedded wins) */
-
+/* 
 *{
     margin:0;
     padding:0;
@@ -17,21 +17,72 @@ header{
 
 }
 
-h1{
+/* h1{
     background-color:aquamarine;
     color:red;
     display: block;
     height: 100px;
     text-align:center;
     
-}
-
+} */
+/* 
 ul{
     background-color:cadetblue;
 
-}
+} */
 
 /* li{
     background-color:greenyellow;
 
-} */
+} */ */
+
+
+/* Custom Classname  */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.header{
+    position:relative;
+    height:100vh;
+    background-image: url("D:\aaPF-exercise\image\pexels-royal-anwar-450214.jpg");
+    background-size:cover;
+}
+
+.header__nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 7%;
+    
+}
+
+.header__nav ul{
+    float:right;
+}
+
+.header__nav ul li{
+    /* background-color:orangered; */
+    display: inline-block;
+    padding-right: 35px;
+    margin: 10px;
+}
+
+.header__headings{
+    position:absolute;
+    /* background-color: green; */
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.header__nav ul li a{
+    /* color: white; */
+    text-decoration: none;
+    font-size:18px;
+}
